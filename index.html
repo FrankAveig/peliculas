@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilos.css">
+
+  <title>Reto #1 de Js</title>
+</head>
+<body>
+    <h1 class="text-center">Reto # 1 de Js Challengue</h1>
+    <div class="container main my-5 ">
+
+        <form action="" class="formulario">
+          <label for="">Cuantas peliculas veras este mes</label>
+          <input type="number" min="0" id="cantidad_peliculas" >
+        </form>
+      
+      <div class="plataformas">
+        <p><strong>Seleccione las plataformas que tiene contratadas</strong></p>
+        <div class="container__plataformas">
+
+          <div class="form-check">
+            <label class="form-check-label" for="flexCheckDefault">
+              Netflix
+            </label>
+            <input class="form-check-input check  chNetflix" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+        
+        <div class="form-check">
+          <label class="form-check-label" for="flexCheckDefault">
+            HBO
+          </label>
+          <input class="form-check-input check chHbo" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+        
+        <div class="form-check">
+          <label class="form-check-label" for="flexCheckDefault">
+            Disney +
+          </label>
+          <input class="form-check-input check chDisney" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+        
+        <div class="form-check">
+          <label class="form-check-label" for="flexCheckDefault">
+            Amazon video
+          </label>
+          <input class="form-check-input check chAmazon" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+      </div>
+      </div>
+        <button class="btn btn-primary" onclick="calcular()"> Calcular </button>
+        <p id="parrafo">
+          
+        </p>
+      </div>
+      
+      <script src="./index.js"></script>
+  
+      
+      
+    </body>
+</html>
